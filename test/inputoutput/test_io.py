@@ -2,10 +2,6 @@ from main.inputoutput.io import inc, unzip_file
 import os
 
 
-def diff(li1, li2):
-    return list(set(li1) - set(li2))
-
-
 def test_answer():
     assert inc(3) == 5
 
